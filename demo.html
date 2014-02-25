@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ludo Goarin">
+
+    <title>Bootstrap Responsive Grid</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bs3-grid.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="main.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+
+    <div class="container">
+
+      <h1>Grid Tests - Only Grid CSS</h1>
+
+    </div>
+
+    <div class="col-md-container">
+
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      <div class="row">
+        <div class="col-xs-12 col-md-8">.col-xs-12 col-md-8</div>
+        <div class="col-xs-6 col-md-1">.col-xs-6 .col-md-1</div>
+      </div>
+
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+      <div class="row">
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+      </div>
+
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+      <div class="row">
+        <div class="col-xs-6">.col-xs-6</div>
+        <div class="col-xs-6">.col-xs-6</div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">.col-xs-12</div>
+      </div>
+
+    </div>
+
+ </body>
+</html>
